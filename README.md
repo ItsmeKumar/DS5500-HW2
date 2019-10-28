@@ -10,4 +10,4 @@ https://github.com/tonytontian/DS5500/tree/master/hw1
 
 The visualization clearly explains the distribution of income (GDP / capita) across countries and continents over time. It looks very similar to my visulazation except that 5 static plots were used to show the distribution across 5 different years, where as I used an interactive slider to show the distribtion for each year. An interactive plot would have been more appropriate for this question, since it allows us to include more information about GDP per capita with respect to time.
 
-The plots look easy to interpret and effectively visualizes what is asked. But, including an interactive plot could surely make it better.
+The plots look easy to interpret and effectively visualizes what is asked but including an interactive plot could surely make it better.
