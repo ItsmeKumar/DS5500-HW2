@@ -22,3 +22,41 @@ The visualization explains relationship between income (GDP / capita), life expe
 The visulaztion is easy to interpret and is effective in visualizing what is asked in the question. But, having 3 different plots could make it hard for cross relational analysis of the 3 variables over time.
 
 <h2><center>Problem 4</center></h2>
+
+I have used simple linear regression model to quantify the relationship betweem income (GDP per capita) and life expectancy over time. GDP was used as the predictor variable and Life expectancy as the target variable in all the models analysed.
+
+Model 1: GDP vs Life Expectancy
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/gdp_le.png" width="675" height="400">
+
+Model 2: log(GDP) vs Life Expectancy
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/loggdp_le.png" width="675" height="400">
+
+Model 3: GDP vs log(Life Expectancy)
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/gdp_logle.png" width="675" height="400">
+
+Model 3 has least RMSE of all, but considering RMSE would lead to bias, since models with log function applied to the target variable will always have lower RMSE. Model 2 is the best fit as it has highest variance explained and least p-value compared to other models.
+
+The plots correspoding to every model show a clear positive correlation between GDP and Life Expectancy, which means the Life Expectancy tends to go up when GDP increases.
+
+
+<h2><center>Problem 5</center></h2>
+
+Linear regression was selected to quantify the relationship betweem income (GDP per capita) and child mortality over time. GDP was used as the predictor variable and Child Mortality as the target variable in all the models analysed.
+
+
+Model 1: GDP vs Child Mortality
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/gdp_cm.png" width="675" height="400">
+
+Model 2: log(GDP) vs Child Mortality
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/loggdp_cm.png" width="675" height="400">
+
+Model 3: GDP vs log(Child Mortality)
+
+<img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/gdp_logcm.png" width="675" height="400">
+
+Model 3 has highest explained variance and least p-value of all the models. And plots of every model show a negative correlation between GDP and Child Mortality, which implies that Child Mortality will decrease as GDP increases.
