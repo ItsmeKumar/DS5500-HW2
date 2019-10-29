@@ -20,3 +20,5 @@ https://github.com/noahdemoes/DS5500_Homework1
 The visualization explains relationship between income (GDP / capita), life expectancy, and child mortality over time. The plots look very different from the approach I have used. One of the major difference is having 3 separate static plots corresponding to visualize income, life expectancy, and child mortality over time. Instead, I have used a single plot to visualize all three variables with time as a slider.
 
 The visulaztion is easy to interpret and is effective in visualizing what is asked in the question. But, having 3 different plots could make it hard for cross relational analysis of the 3 variables over time.
+
+<h2><center>Problem 4</center></h2>
