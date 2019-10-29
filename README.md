@@ -60,3 +60,5 @@ Model 3: GDP vs log(Child Mortality)
 <img src="https://github.com/ItsmeKumar/DS5500-HW2/blob/master/plots/gdp_logcm.png" width="675" height="400">
 
 Model 3 has highest explained variance and least p-value of all the models. And plots of every model show a negative correlation between GDP and Child Mortality, which implies that Child Mortality will decrease as GDP increases.
+
+Autocorrelation: We are assuming that there is no autocorrelation for our models in Problem 4 and 5. Autocorrelation of the errors violates the ordinary least squares assumption that the error terms are uncorrelated, meaning that the Gauss Markov theorem does not apply, and that OLS estimators are no longer the Best Linear Unbiased Estimators 
