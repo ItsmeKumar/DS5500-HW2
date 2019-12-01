@@ -1,4 +1,4 @@
-<h1><center>DS 5500 Assignment 1</center></h1>
+<h1><center>DS 5500 Assignment 2</center></h1>
 
 <h2><center>Problem 1</center></h2>
 Project group: https://piazza.com/class/k05u5i0wc3w540?cid=242
